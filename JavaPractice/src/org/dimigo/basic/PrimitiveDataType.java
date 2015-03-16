@@ -8,6 +8,8 @@ package org.dimigo.basic;
  * @version 1.0
  */
 
+// 수정
+
 public class PrimitiveDataType {
 	public static void main(String[] args) {
 		String name = "아이유";
