@@ -24,5 +24,19 @@ public class FigureTest {
 		System.out.println("원의 넓이 : " + circle.calcArea()); 
 		System.out.println("삼각형의 넓이 : " + triangle.calcArea()); 
      	System.out.println("사각형의 넓이 : " + rectangle.calcArea()); 
+     	
+     	System.out.println("");
+     	circle.printCenter();
+     	triangle.printCenter();
+     	rectangle.printCenter();
+     	System.out.println("--중심좌표 이동 (x, y축 5씩)");
+     	
+     	circle.moveFigure(5, 5);
+     	triangle.moveFigure(5, 5);
+     	rectangle.moveFigure(5, 5);
+     	
+     	circle.printCenter();
+     	triangle.printCenter();
+     	rectangle.printCenter();
 	} 
 }
