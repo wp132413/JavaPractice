@@ -19,11 +19,11 @@ public class Figure {
 	    private int centerX; 
 		private int centerY; 
 	 	 
-	 	Figure(){
+		public Figure(){
 	 		
 	 	} 
 	 	 
-	    Figure(int centerX, int centerY){ 
+		public Figure(int centerX, int centerY){ 
 		this.centerX = centerX; 
 		this.centerY = centerY; 
 	} 
