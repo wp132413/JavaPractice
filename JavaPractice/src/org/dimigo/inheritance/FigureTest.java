@@ -2,7 +2,7 @@
  * 
  */
 package org.dimigo.inheritance;
-
+//
 /**
  * <pre>
  * org.dimigo.inheritance
@@ -15,7 +15,7 @@ package org.dimigo.inheritance;
  * @author  : 박준호
  * @version : 1.0
  */
-public class FigureTest { //
+public class FigureTest { 
 	public static void main(String[] args){ 
 		Circle circle = new Circle(5); 
 		Triangle triangle = new Triangle(10, 10, 5, 8); 
