@@ -15,6 +15,7 @@ package org.dimigo.exception;
  * @author  : 박준호
  * @version : 1.0
  */
+@SuppressWarnings("serial")
 public class Movie extends Exception {
 	private String title; 
 	private int limitAge; 
